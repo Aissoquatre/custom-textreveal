@@ -14,7 +14,18 @@ export default {
     },
     source: {
       label: {
-          en: 'Text Reveal',
+          en: 'Text Reveal content',
+      },
+      type: 'Text',
+      options: {
+          expandable: true,
+      },
+      bindable: true,
+      defaultValue: '',
+    },
+    scrollSource: {
+      label: {
+          en: 'Text Reveal scroll content',
       },
       type: 'Text',
       options: {
